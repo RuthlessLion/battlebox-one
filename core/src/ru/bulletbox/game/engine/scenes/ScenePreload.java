@@ -19,6 +19,7 @@ public class ScenePreload extends Scene {
     Sprite sprite;
     Sprite sprite2;
     int x,y,width,height;
+    double time;
 
     @Override
     public void init(SceneManager sm) {
@@ -44,7 +45,10 @@ public class ScenePreload extends Scene {
 
     @Override
     public void step() {
-        Gdx.graphics.getDeltaTime();
+        time += Gdx.graphics.getDeltaTime();
+        System.out.println(time);
+        if(time >=4)
+            changeScene(new SceneGame());
         Gdx.gl.glClearColor(127/255f , 140/255f, 141/255f, 0);
         Gdx.gl.glClear(GL30.GL_COLOR_BUFFER_BIT);
         batch.begin();
