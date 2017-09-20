@@ -34,4 +34,6 @@ public class SceneManager {
         this.height = height;
     }
 
+    public void setSize(int w, int h, boolean b) {
+    }
 }

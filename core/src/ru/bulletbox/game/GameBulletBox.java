@@ -7,18 +7,19 @@ import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import ru.bulletbox.game.engine.SceneManager;
 import ru.bulletbox.game.engine.scenes.SceneMain;
+import ru.bulletbox.game.engine.scenes.ScenePreload;
 
 public class GameBulletBox extends ApplicationAdapter {
 	SceneManager sceneManager;
 
-	public void initSceneManager(int w, int h) {
+	public void initSceneManager(int w, int h,  boolean fullscreen) {
 		sceneManager = new SceneManager();
-		sceneManager.setSize(w, h);
+		sceneManager.setSize(w, h, true);
 	}
 
 	@Override
 	public void create () {
-		sceneManager.setScene(new SceneMain());
+		sceneManager.setScene(new ScenePreload());
 	}
 
 	@Override
