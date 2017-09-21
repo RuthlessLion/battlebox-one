@@ -11,6 +11,9 @@ import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import ru.bulletbox.game.engine.SceneManager;
 
+/**
+ * Created by RuthlessLion on 20.09.17.
+ */
 
 public class ScenePreload extends Scene {
     SpriteBatch batch;
@@ -35,7 +38,6 @@ public class ScenePreload extends Scene {
         texture2 = new Texture(Gdx.files.internal("preload.png"));
         sprite2 = new Sprite(texture2, 0, 0, 900, 200);
         sprite2.setPosition((width-900)/2, (height-200)/2);
-
     }
 
     private Pixmap createPixmap(){

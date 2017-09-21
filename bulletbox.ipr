@@ -91,108 +91,6 @@
         <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
       </root>
     </artifact>
-    <artifact type="exploded-war" name="Gradle : battlebox-one : html-draft-1.0.war (exploded)">
-      <output-path>$PROJECT_DIR$/html/build/libs/exploded/html-draft-1.0.war</output-path>
-      <properties id="gradle-properties">
-        <options external-project-path="$PROJECT_DIR$">
-          <manifest>TWFuaWZlc3QtVmVyc2lvbjogMS4wDQoNCg==</manifest>
-        </options>
-      </properties>
-      <root id="root">
-        <element id="directory" name="META-INF">
-          <element id="file-copy" path="$PROJECT_DIR$/html/build/libs/exploded/html-draft-1.0.war/META-INF/MANIFEST.MF" />
-        </element>
-        <element id="javaee-facet-resources" facet="html_main/web/Web Gradle : html-draft-1.0.war" />
-        <element id="directory" name="WEB-INF">
-          <element id="directory" name="classes">
-            <element id="module-output" name="html_main" />
-            <element id="dir-copy" path="$PROJECT_DIR$/html/out/production/resources" />
-          </element>
-          <element id="directory" name="lib">
-            <element id="archive" name="battlebox-one-core-1.0.jar">
-              <element id="module-output" name="core_main" />
-              <element id="dir-copy" path="$PROJECT_DIR$/core/out/production/resources" />
-            </element>
-            <element id="library" level="project" name="Gradle: com.badlogicgames.gdx:gdx:1.9.6" />
-            <element id="library" level="project" name="Gradle: com.badlogicgames.gdx:gdx-box2d:1.9.6" />
-            <element id="library" level="project" name="Gradle: com.badlogicgames.gdx:gdx-backend-gwt:1.9.6" />
-            <element id="library" level="project" name="Gradle: com.badlogicgames.gdx:gdx-backend-gwt:sources:1.9.6" />
-            <element id="library" level="project" name="Gradle: com.badlogicgames.gdx:gdx:sources:1.9.6" />
-            <element id="library" level="project" name="Gradle: com.badlogicgames.gdx:gdx-box2d:sources:1.9.6" />
-            <element id="library" level="project" name="Gradle: com.badlogicgames.gdx:gdx-box2d-gwt:sources:1.9.6" />
-            <element id="library" level="project" name="Gradle: com.google.gwt:gwt-user:2.8.0" />
-            <element id="library" level="project" name="Gradle: com.google.jsinterop:jsinterop-annotations:1.0.1" />
-            <element id="library" level="project" name="Gradle: com.google.gwt:gwt-servlet:2.8.0" />
-            <element id="library" level="project" name="Gradle: com.google.jsinterop:jsinterop-annotations:sources:1.0.1" />
-            <element id="library" level="project" name="Gradle: javax.validation:validation-api:1.0.0.GA" />
-            <element id="library" level="project" name="Gradle: javax.validation:validation-api:sources:1.0.0.GA" />
-            <element id="library" level="project" name="Gradle: javax.servlet:javax.servlet-api:3.1.0" />
-            <element id="library" level="project" name="Gradle: org.w3c.css:sac:1.3" />
-          </element>
-        </element>
-        <element id="gwt-compiler-output" facet="html_main/gwt/GWT" />
-      </root>
-    </artifact>
-    <artifact type="war" name="Gradle : battlebox-one : html-draft-1.0.war">
-      <output-path>$PROJECT_DIR$/html/build/libs</output-path>
-      <properties id="gradle-properties">
-        <options external-project-path="$PROJECT_DIR$" />
-      </properties>
-      <root id="archive" name="html-draft-1.0.war">
-        <element id="artifact" artifact-name="Gradle : battlebox-one : html-draft-1.0.war (exploded)" />
-      </root>
-    </artifact>
-    <artifact type="exploded-war" name="Gradle : battlebox-one : html-1.0.war (exploded)">
-      <output-path>$PROJECT_DIR$/html/build/libs/exploded/html-1.0.war</output-path>
-      <properties id="gradle-properties">
-        <options external-project-path="$PROJECT_DIR$">
-          <manifest>TWFuaWZlc3QtVmVyc2lvbjogMS4wDQoNCg==</manifest>
-        </options>
-      </properties>
-      <root id="root">
-        <element id="directory" name="META-INF">
-          <element id="file-copy" path="$PROJECT_DIR$/html/build/libs/exploded/html-1.0.war/META-INF/MANIFEST.MF" />
-        </element>
-        <element id="javaee-facet-resources" facet="html_main/web/Web Gradle : html-1.0.war" />
-        <element id="directory" name="WEB-INF">
-          <element id="directory" name="classes">
-            <element id="module-output" name="html_main" />
-            <element id="dir-copy" path="$PROJECT_DIR$/html/out/production/resources" />
-          </element>
-          <element id="directory" name="lib">
-            <element id="archive" name="battlebox-one-core-1.0.jar">
-              <element id="module-output" name="core_main" />
-              <element id="dir-copy" path="$PROJECT_DIR$/core/out/production/resources" />
-            </element>
-            <element id="library" level="project" name="Gradle: com.badlogicgames.gdx:gdx:1.9.6" />
-            <element id="library" level="project" name="Gradle: com.badlogicgames.gdx:gdx-box2d:1.9.6" />
-            <element id="library" level="project" name="Gradle: com.badlogicgames.gdx:gdx-backend-gwt:1.9.6" />
-            <element id="library" level="project" name="Gradle: com.badlogicgames.gdx:gdx-backend-gwt:sources:1.9.6" />
-            <element id="library" level="project" name="Gradle: com.badlogicgames.gdx:gdx:sources:1.9.6" />
-            <element id="library" level="project" name="Gradle: com.badlogicgames.gdx:gdx-box2d:sources:1.9.6" />
-            <element id="library" level="project" name="Gradle: com.badlogicgames.gdx:gdx-box2d-gwt:sources:1.9.6" />
-            <element id="library" level="project" name="Gradle: com.google.gwt:gwt-user:2.8.0" />
-            <element id="library" level="project" name="Gradle: com.google.jsinterop:jsinterop-annotations:1.0.1" />
-            <element id="library" level="project" name="Gradle: com.google.gwt:gwt-servlet:2.8.0" />
-            <element id="library" level="project" name="Gradle: com.google.jsinterop:jsinterop-annotations:sources:1.0.1" />
-            <element id="library" level="project" name="Gradle: javax.validation:validation-api:1.0.0.GA" />
-            <element id="library" level="project" name="Gradle: javax.validation:validation-api:sources:1.0.0.GA" />
-            <element id="library" level="project" name="Gradle: javax.servlet:javax.servlet-api:3.1.0" />
-            <element id="library" level="project" name="Gradle: org.w3c.css:sac:1.3" />
-          </element>
-        </element>
-        <element id="gwt-compiler-output" facet="html_main/gwt/GWT" />
-      </root>
-    </artifact>
-    <artifact type="war" name="Gradle : battlebox-one : html-1.0.war">
-      <output-path>$PROJECT_DIR$/html/build/libs</output-path>
-      <properties id="gradle-properties">
-        <options external-project-path="$PROJECT_DIR$" />
-      </properties>
-      <root id="archive" name="html-1.0.war">
-        <element id="artifact" artifact-name="Gradle : battlebox-one : html-1.0.war (exploded)" />
-      </root>
-    </artifact>
     <artifact type="jar" name="desktop_main:jar">
       <output-path>$PROJECT_DIR$/out/artifacts/desktop_main_jar</output-path>
       <root id="archive" name="desktop_main.jar">
@@ -223,6 +121,108 @@
         <element id="directory" name="META-INF">
           <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
         </element>
+      </root>
+    </artifact>
+    <artifact type="exploded-war" name="Gradle : battlebox-one-develop : html-draft-1.0.war (exploded)">
+      <output-path>$PROJECT_DIR$/html/build/libs/exploded/html-draft-1.0.war</output-path>
+      <properties id="gradle-properties">
+        <options external-project-path="$PROJECT_DIR$">
+          <manifest>TWFuaWZlc3QtVmVyc2lvbjogMS4wDQoNCg==</manifest>
+        </options>
+      </properties>
+      <root id="root">
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/html/build/libs/exploded/html-draft-1.0.war/META-INF/MANIFEST.MF" />
+        </element>
+        <element id="javaee-facet-resources" facet="html_main/web/Web Gradle : html-draft-1.0.war" />
+        <element id="directory" name="WEB-INF">
+          <element id="directory" name="classes">
+            <element id="module-output" name="html_main" />
+            <element id="dir-copy" path="$PROJECT_DIR$/html/out/production/resources" />
+          </element>
+          <element id="directory" name="lib">
+            <element id="archive" name="battlebox-one-develop-core-1.0.jar">
+              <element id="module-output" name="core_main" />
+              <element id="dir-copy" path="$PROJECT_DIR$/core/out/production/resources" />
+            </element>
+            <element id="library" level="project" name="Gradle: com.badlogicgames.gdx:gdx:1.9.6" />
+            <element id="library" level="project" name="Gradle: com.badlogicgames.gdx:gdx-box2d:1.9.6" />
+            <element id="library" level="project" name="Gradle: com.badlogicgames.gdx:gdx-backend-gwt:1.9.6" />
+            <element id="library" level="project" name="Gradle: com.badlogicgames.gdx:gdx-backend-gwt:sources:1.9.6" />
+            <element id="library" level="project" name="Gradle: com.badlogicgames.gdx:gdx:sources:1.9.6" />
+            <element id="library" level="project" name="Gradle: com.badlogicgames.gdx:gdx-box2d:sources:1.9.6" />
+            <element id="library" level="project" name="Gradle: com.badlogicgames.gdx:gdx-box2d-gwt:sources:1.9.6" />
+            <element id="library" level="project" name="Gradle: com.google.gwt:gwt-user:2.8.0" />
+            <element id="library" level="project" name="Gradle: com.google.jsinterop:jsinterop-annotations:1.0.1" />
+            <element id="library" level="project" name="Gradle: com.google.gwt:gwt-servlet:2.8.0" />
+            <element id="library" level="project" name="Gradle: com.google.jsinterop:jsinterop-annotations:sources:1.0.1" />
+            <element id="library" level="project" name="Gradle: javax.validation:validation-api:1.0.0.GA" />
+            <element id="library" level="project" name="Gradle: javax.validation:validation-api:sources:1.0.0.GA" />
+            <element id="library" level="project" name="Gradle: javax.servlet:javax.servlet-api:3.1.0" />
+            <element id="library" level="project" name="Gradle: org.w3c.css:sac:1.3" />
+          </element>
+        </element>
+        <element id="gwt-compiler-output" facet="html_main/gwt/GWT" />
+      </root>
+    </artifact>
+    <artifact type="war" name="Gradle : battlebox-one-develop : html-draft-1.0.war">
+      <output-path>$PROJECT_DIR$/html/build/libs</output-path>
+      <properties id="gradle-properties">
+        <options external-project-path="$PROJECT_DIR$" />
+      </properties>
+      <root id="archive" name="html-draft-1.0.war">
+        <element id="artifact" artifact-name="Gradle : battlebox-one-develop : html-draft-1.0.war (exploded)" />
+      </root>
+    </artifact>
+    <artifact type="exploded-war" name="Gradle : battlebox-one-develop : html-1.0.war (exploded)">
+      <output-path>$PROJECT_DIR$/html/build/libs/exploded/html-1.0.war</output-path>
+      <properties id="gradle-properties">
+        <options external-project-path="$PROJECT_DIR$">
+          <manifest>TWFuaWZlc3QtVmVyc2lvbjogMS4wDQoNCg==</manifest>
+        </options>
+      </properties>
+      <root id="root">
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/html/build/libs/exploded/html-1.0.war/META-INF/MANIFEST.MF" />
+        </element>
+        <element id="javaee-facet-resources" facet="html_main/web/Web Gradle : html-1.0.war" />
+        <element id="directory" name="WEB-INF">
+          <element id="directory" name="classes">
+            <element id="module-output" name="html_main" />
+            <element id="dir-copy" path="$PROJECT_DIR$/html/out/production/resources" />
+          </element>
+          <element id="directory" name="lib">
+            <element id="archive" name="battlebox-one-develop-core-1.0.jar">
+              <element id="module-output" name="core_main" />
+              <element id="dir-copy" path="$PROJECT_DIR$/core/out/production/resources" />
+            </element>
+            <element id="library" level="project" name="Gradle: com.badlogicgames.gdx:gdx:1.9.6" />
+            <element id="library" level="project" name="Gradle: com.badlogicgames.gdx:gdx-box2d:1.9.6" />
+            <element id="library" level="project" name="Gradle: com.badlogicgames.gdx:gdx-backend-gwt:1.9.6" />
+            <element id="library" level="project" name="Gradle: com.badlogicgames.gdx:gdx-backend-gwt:sources:1.9.6" />
+            <element id="library" level="project" name="Gradle: com.badlogicgames.gdx:gdx:sources:1.9.6" />
+            <element id="library" level="project" name="Gradle: com.badlogicgames.gdx:gdx-box2d:sources:1.9.6" />
+            <element id="library" level="project" name="Gradle: com.badlogicgames.gdx:gdx-box2d-gwt:sources:1.9.6" />
+            <element id="library" level="project" name="Gradle: com.google.gwt:gwt-user:2.8.0" />
+            <element id="library" level="project" name="Gradle: com.google.jsinterop:jsinterop-annotations:1.0.1" />
+            <element id="library" level="project" name="Gradle: com.google.gwt:gwt-servlet:2.8.0" />
+            <element id="library" level="project" name="Gradle: com.google.jsinterop:jsinterop-annotations:sources:1.0.1" />
+            <element id="library" level="project" name="Gradle: javax.validation:validation-api:1.0.0.GA" />
+            <element id="library" level="project" name="Gradle: javax.validation:validation-api:sources:1.0.0.GA" />
+            <element id="library" level="project" name="Gradle: javax.servlet:javax.servlet-api:3.1.0" />
+            <element id="library" level="project" name="Gradle: org.w3c.css:sac:1.3" />
+          </element>
+        </element>
+        <element id="gwt-compiler-output" facet="html_main/gwt/GWT" />
+      </root>
+    </artifact>
+    <artifact type="war" name="Gradle : battlebox-one-develop : html-1.0.war">
+      <output-path>$PROJECT_DIR$/html/build/libs</output-path>
+      <properties id="gradle-properties">
+        <options external-project-path="$PROJECT_DIR$" />
+      </properties>
+      <root id="archive" name="html-1.0.war">
+        <element id="artifact" artifact-name="Gradle : battlebox-one-develop : html-1.0.war (exploded)" />
       </root>
     </artifact>
   </component>
@@ -421,7 +421,7 @@
   </component>
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/battlebox-one.iml" filepath="$PROJECT_DIR$/battlebox-one.iml" />
+      <module fileurl="file://$PROJECT_DIR$/battlebox-one-develop.iml" filepath="$PROJECT_DIR$/battlebox-one-develop.iml" />
       <module fileurl="file://$PROJECT_DIR$/bulletbox.iml" filepath="$PROJECT_DIR$/bulletbox.iml" />
       <module fileurl="file://$PROJECT_DIR$/core/core.iml" filepath="$PROJECT_DIR$/core/core.iml" group="core" />
       <module fileurl="file://$PROJECT_DIR$/core/core_main.iml" filepath="$PROJECT_DIR$/core/core_main.iml" group="core" />

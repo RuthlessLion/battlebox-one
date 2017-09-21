@@ -16,7 +16,6 @@ public class DesktopLauncher {
         config.title = "BattleBox - One";
         config.width = WORLD_WIDTH;
         config.height = WORLD_HEIGHT;
-        config.fullscreen = false;
 
 		GameBulletBox game = new GameBulletBox();
 		game.initSceneManager(config.width, config.height, config.fullscreen = true);
