@@ -6,6 +6,7 @@ import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import ru.bulletbox.game.engine.SceneManager;
+import ru.bulletbox.game.engine.scenes.SceneGame;
 import ru.bulletbox.game.engine.scenes.SceneMain;
 import ru.bulletbox.game.engine.scenes.ScenePreload;
 
@@ -19,7 +20,7 @@ public class GameBulletBox extends ApplicationAdapter {
 
 	@Override
 	public void create () {
-		sceneManager.setScene(new ScenePreload());
+		sceneManager.setScene(new SceneGame());
 	}
 
 	@Override

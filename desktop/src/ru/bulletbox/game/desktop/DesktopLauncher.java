@@ -7,8 +7,8 @@ import ru.bulletbox.game.GameBulletBox;
 
 
 public class DesktopLauncher {
-    static final int WORLD_WIDTH = 100;
-    static final int WORLD_HEIGHT = 100;
+    static final int WORLD_WIDTH = 640;
+    static final int WORLD_HEIGHT = 480;
 	public static void main (String[] arg) {
 		LwjglApplicationConfiguration config = new LwjglApplicationConfiguration();
 
@@ -18,7 +18,7 @@ public class DesktopLauncher {
         config.height = WORLD_HEIGHT;
 
 		GameBulletBox game = new GameBulletBox();
-		game.initSceneManager(config.width, config.height, config.fullscreen = true);
+		game.initSceneManager(config.width, config.height, config.fullscreen = false);
 		new LwjglApplication(game, config);
 	}
 }

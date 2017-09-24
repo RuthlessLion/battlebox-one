@@ -72,6 +72,13 @@ public class ScenePreload extends Scene {
         return true;
     }
 
+    @Override
+    public boolean touchDragged(int screenX, int screenY, int pointer) {
+        x = screenX;
+        y = screenY;
+        return super.touchDragged(screenX, screenY, pointer);
+    }
+
     public boolean keyDown(int keycode) {
         if (keycode == Input.Keys.ENTER)
             changeScene(new SceneMain());

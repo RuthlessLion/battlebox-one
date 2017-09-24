@@ -421,7 +421,7 @@
   </component>
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/battlebox-one-develop.iml" filepath="$PROJECT_DIR$/battlebox-one-develop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/battlebox-one.iml" filepath="$PROJECT_DIR$/battlebox-one.iml" />
       <module fileurl="file://$PROJECT_DIR$/bulletbox.iml" filepath="$PROJECT_DIR$/bulletbox.iml" />
       <module fileurl="file://$PROJECT_DIR$/core/core.iml" filepath="$PROJECT_DIR$/core/core.iml" group="core" />
       <module fileurl="file://$PROJECT_DIR$/core/core_main.iml" filepath="$PROJECT_DIR$/core/core_main.iml" group="core" />
